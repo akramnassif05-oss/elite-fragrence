@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elite Fragrance — Luxe à petit prix</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="images/logo_elite.png" alt="Elite Fragrance logo" class="logo" />
+      <div class="brand-text">
+        <div class="name">Elite Fragrance</div>
+        <div class="tag">Luxe à petit prix</div>
+      </div>
+    </div>
+    <nav class="navlinks">
+      <a href="#shop">Boutique</a>
+      <a href="#packs">Packs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="landing" id="home">
+    <div class="landing-inner">
+      <h1>Bienvenue chez Elite Fragrance</h1>
+      <p>Parfums sélectionnés • Qualité premium • Livraison Maroc  35dh </p>
+      <a class="enter-btn" href="#shop">Entrer dans la boutique</a>
+    </div>
+  </section>
+
+  <main class="container" id="shop">
+    <section>
+      <h2>Parfum Homme</h2>
+      <div class="products" id="products-homme"></div>
+    </section>
+
+    <section id="packs">
+      <h2>Packs 300 dh</h2>
+      <div class="products" id="products-packs"></div>
+    </section>
+
+    <section>
+      <h2>Parfum Femme</h2>
+      <div class="coming">Coming soon</div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:akramnassif05@gmail.com">akramnassif05@gmail.com</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/elite_decantes" target="_blank">@elite_decantes</a></p>
+      <p>Téléphone / WhatsApp: <a href="https://wa.me/212696146559">+212 696 146559</a></p>
+    </section>
+  </main>
+
+  <button class="cartBtn" id="open-cart">Voir le panier</button>
+
+  <div id="cart" class="cart hidden">
+    <div class="cart-panel">
+      <button id="close-cart" class="close-btn">✕</button>
+      <h3>Panier</h3>
+      <div id="cart-items"></div>
+      <div class="cart-total">Total: <span id="cart-total">0</span> dh</div>
+      <a id="checkout-wa" class="checkout" href="#" target="_blank">Commander via WhatsApp</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    © <span id="year"></span> Elite Fragrance — <a href="mailto:akramnassif05@gmail.com">akramnassif05@gmail.com</a> — @elite_decantes — 0696146559
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
